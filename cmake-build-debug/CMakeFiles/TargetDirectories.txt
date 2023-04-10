@@ -1,3 +1,6 @@
 /home/xamblot/CLionProjects/textEditor/cmake-build-debug/CMakeFiles/textEditor.dir
 /home/xamblot/CLionProjects/textEditor/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/xamblot/CLionProjects/textEditor/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/xamblot/CLionProjects/textEditor/cmake-build-debug/WindowsView/CMakeFiles/window.dir
+/home/xamblot/CLionProjects/textEditor/cmake-build-debug/WindowsView/CMakeFiles/edit_cache.dir
+/home/xamblot/CLionProjects/textEditor/cmake-build-debug/WindowsView/CMakeFiles/rebuild_cache.dir
