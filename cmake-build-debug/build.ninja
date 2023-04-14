@@ -49,10 +49,38 @@ cmake_ninja_workdir = /home/xamblot/CLionProjects/textEditor/cmake-build-debug/
 
 build cmake_object_order_depends_target_textEditor: phony || CMakeFiles/textEditor.dir
 
+build CMakeFiles/textEditor.dir/lib/src/DocumentHandle.cpp.o: CXX_COMPILER__textEditor_Debug /home/xamblot/CLionProjects/textEditor/lib/src/DocumentHandle.cpp || cmake_object_order_depends_target_textEditor
+  DEP_FILE = CMakeFiles/textEditor.dir/lib/src/DocumentHandle.cpp.o.d
+  FLAGS = -g -std=gnu++2a
+  INCLUDES = -I/usr/lib/x86_64-linux-gnu/cmake/SFML -I/home/xamblot/CLionProjects/textEditor/lib
+  OBJECT_DIR = CMakeFiles/textEditor.dir
+  OBJECT_FILE_DIR = CMakeFiles/textEditor.dir/lib/src
+
+build CMakeFiles/textEditor.dir/lib/src/Editor.cpp.o: CXX_COMPILER__textEditor_Debug /home/xamblot/CLionProjects/textEditor/lib/src/Editor.cpp || cmake_object_order_depends_target_textEditor
+  DEP_FILE = CMakeFiles/textEditor.dir/lib/src/Editor.cpp.o.d
+  FLAGS = -g -std=gnu++2a
+  INCLUDES = -I/usr/lib/x86_64-linux-gnu/cmake/SFML -I/home/xamblot/CLionProjects/textEditor/lib
+  OBJECT_DIR = CMakeFiles/textEditor.dir
+  OBJECT_FILE_DIR = CMakeFiles/textEditor.dir/lib/src
+
+build CMakeFiles/textEditor.dir/lib/src/InputHandle.cpp.o: CXX_COMPILER__textEditor_Debug /home/xamblot/CLionProjects/textEditor/lib/src/InputHandle.cpp || cmake_object_order_depends_target_textEditor
+  DEP_FILE = CMakeFiles/textEditor.dir/lib/src/InputHandle.cpp.o.d
+  FLAGS = -g -std=gnu++2a
+  INCLUDES = -I/usr/lib/x86_64-linux-gnu/cmake/SFML -I/home/xamblot/CLionProjects/textEditor/lib
+  OBJECT_DIR = CMakeFiles/textEditor.dir
+  OBJECT_FILE_DIR = CMakeFiles/textEditor.dir/lib/src
+
+build CMakeFiles/textEditor.dir/lib/src/cursor.cpp.o: CXX_COMPILER__textEditor_Debug /home/xamblot/CLionProjects/textEditor/lib/src/cursor.cpp || cmake_object_order_depends_target_textEditor
+  DEP_FILE = CMakeFiles/textEditor.dir/lib/src/cursor.cpp.o.d
+  FLAGS = -g -std=gnu++2a
+  INCLUDES = -I/usr/lib/x86_64-linux-gnu/cmake/SFML -I/home/xamblot/CLionProjects/textEditor/lib
+  OBJECT_DIR = CMakeFiles/textEditor.dir
+  OBJECT_FILE_DIR = CMakeFiles/textEditor.dir/lib/src
+
 build CMakeFiles/textEditor.dir/main.cpp.o: CXX_COMPILER__textEditor_Debug /home/xamblot/CLionProjects/textEditor/main.cpp || cmake_object_order_depends_target_textEditor
   DEP_FILE = CMakeFiles/textEditor.dir/main.cpp.o.d
   FLAGS = -g -std=gnu++2a
-  INCLUDES = -I/usr/lib/x86_64-linux-gnu/cmake/SFML
+  INCLUDES = -I/usr/lib/x86_64-linux-gnu/cmake/SFML -I/home/xamblot/CLionProjects/textEditor/lib
   OBJECT_DIR = CMakeFiles/textEditor.dir
   OBJECT_FILE_DIR = CMakeFiles/textEditor.dir
 
@@ -64,7 +92,7 @@ build CMakeFiles/textEditor.dir/main.cpp.o: CXX_COMPILER__textEditor_Debug /home
 #############################################
 # Link the executable textEditor
 
-build textEditor: CXX_EXECUTABLE_LINKER__textEditor_Debug CMakeFiles/textEditor.dir/main.cpp.o | /usr/lib/x86_64-linux-gnu/libsfml-audio.so.2.5.1 /usr/lib/x86_64-linux-gnu/libsfml-network.so.2.5.1 /usr/lib/x86_64-linux-gnu/libsfml-graphics.so.2.5.1 /usr/lib/x86_64-linux-gnu/libsfml-window.so.2.5.1 /usr/lib/x86_64-linux-gnu/libsfml-system.so.2.5.1
+build textEditor: CXX_EXECUTABLE_LINKER__textEditor_Debug CMakeFiles/textEditor.dir/lib/src/DocumentHandle.cpp.o CMakeFiles/textEditor.dir/lib/src/Editor.cpp.o CMakeFiles/textEditor.dir/lib/src/InputHandle.cpp.o CMakeFiles/textEditor.dir/lib/src/cursor.cpp.o CMakeFiles/textEditor.dir/main.cpp.o | /usr/lib/x86_64-linux-gnu/libsfml-audio.so.2.5.1 /usr/lib/x86_64-linux-gnu/libsfml-network.so.2.5.1 /usr/lib/x86_64-linux-gnu/libsfml-graphics.so.2.5.1 /usr/lib/x86_64-linux-gnu/libsfml-window.so.2.5.1 /usr/lib/x86_64-linux-gnu/libsfml-system.so.2.5.1
   FLAGS = -g
   LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libsfml-audio.so.2.5.1  /usr/lib/x86_64-linux-gnu/libsfml-network.so.2.5.1  /usr/lib/x86_64-linux-gnu/libsfml-graphics.so.2.5.1  /usr/lib/x86_64-linux-gnu/libsfml-window.so.2.5.1  /usr/lib/x86_64-linux-gnu/libsfml-system.so.2.5.1
   OBJECT_DIR = CMakeFiles/textEditor.dir

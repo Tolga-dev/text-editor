@@ -1,10 +1,37 @@
 # text-editor
-hobi project, basic text editor 
-basic implamatation of sfml
+hob project, basic text editor 
+basic implementation of sfml
 
-#general brainstorm
+![ALT TEXT](/home/xamblot/CLionProjects/textEditor/fonts/2023-04-15 01-35-14.gif)
 
-pseudocode:
+### to do list
+
+/ Screen = done
+
+/ Cursor wasd movement= done
+
+/ Open file = done
+
+/ Cursor Camera Movement = done
+
+/ BackSpace and camera update = done
+
+/ Del and camera update = done
+
+/ Add Enter and camera update = done
+
+/ typing and camera update = done
+
+/ special key codes -> ctrl shift space = done -> save file
+
+/ color and font = done
+
+/ files update = done
+
+
+### General Brainstorm
+
+**Pseudocode:**
 
     main loop (while):
         keypress events;
@@ -14,4 +41,5 @@ pseudocode:
                 exit();
         refresh;
     
-
+### EXTRA NODES 
+in InputExample-linux dic, there is a file, it is just a keylogger basically without sfml

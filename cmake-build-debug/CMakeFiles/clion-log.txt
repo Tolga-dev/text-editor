@@ -1,6 +1,6 @@
 /home/xamblot/.local/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/xamblot/Downloads/CLion/clion-2022.1.3/bin/ninja/linux/ninja -G Ninja -S /home/xamblot/CLionProjects/textEditor -B /home/xamblot/CLionProjects/textEditor/cmake-build-debug
 -- Found SFML 2.5.1 in /usr/lib/x86_64-linux-gnu/cmake/SFML
-yeap
+Working!
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/xamblot/CLionProjects/textEditor/cmake-build-debug
