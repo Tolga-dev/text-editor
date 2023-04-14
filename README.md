@@ -2,7 +2,7 @@
 hob project, basic text editor 
 basic implementation of sfml
 
-![ALT TEXT](/home/xamblot/CLionProjects/textEditor/fonts/2023-04-15 01-35-14.gif)
+![ALT TEXT](fonts/showme.gif)
 
 ### to do list
 
