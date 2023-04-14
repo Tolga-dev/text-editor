@@ -43,3 +43,9 @@ basic implementation of sfml
     
 ### EXTRA NODES 
 in InputExample-linux dic, there is a file, it is just a keylogger basically without sfml
+
+### sources
+http://www.eel.is/c++draft/#class
+https://www.sfml-dev.org/ -> basically most essential
+https://man.cx/attribute
+https://en.cppreference.com/w/cpp/language/classes
